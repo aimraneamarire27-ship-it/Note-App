@@ -44,6 +44,8 @@ document.addEventListener('mousedown',(e)=>{
     }
     elementData.dom.style.zIndex = `${lastZIndex}`;
     lastZIndex++
+    console.log(lastZIndex);
+    
  }
 })
 document.addEventListener('mousemove',(e)=>{

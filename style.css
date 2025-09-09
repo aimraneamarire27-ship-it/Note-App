@@ -73,7 +73,8 @@ body{
 
 }
 .note span{
-  color: white;
+color: white; /* base color */
+  mix-blend-mode: difference;
   position: absolute;
   top: 6px;
   right: 13px;
